@@ -2,7 +2,10 @@
 Multi pin i2S ws2812b ESP32
 
 This has been written as a proof of concept to verify what 
-can be accomplished controlling LEDs via i2S rather than RMT
+can be accomplished controlling LEDs via i2S rather than RMT.
+
+I've used the pacifica pattern as a typical pattern someone might wish
+to render
 
 If you comment out the first line of code for the ino file and flash 
 yhe code to the ESP32, the leds will be refreshed using the conventional 
